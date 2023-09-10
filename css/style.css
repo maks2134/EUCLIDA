@@ -6,6 +6,31 @@ body {
   margin-left: 75px;
   margin-right: 75px;
 }
+.mobie_footer{
+  display: none;
+}
+.finder_width{
+  display: none;
+}
+.mobile_jobs{
+  display: none;
+}
+.burger{
+  display: none;
+}
+.mobile_constructor_obj{
+  display: none;
+}
+.nav_bar_link:hover{
+  text-decoration: underline #f90;
+}
+.nav_bar_link:focus{
+  text-decoration: 2px solid #F90;
+}
+.nav_bar_link:active{
+  color: #E1670E;
+  text-decoration: underline #E1670E;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -76,6 +101,18 @@ nav {
   background: #f90;
   padding: 25px 39px;
 }
+.promo_button:hover{
+  border-radius: 16px;
+background: #FFB84D;
+}
+.promo_button:focus{
+  border-radius: 16px;
+  background: #FFB84D;  
+}
+.promo_button:active{
+  border-radius: 16px;
+background: #E1670E;
+}
 .button_link {
   color: #fff;
   text-align: center;
@@ -91,7 +128,7 @@ nav {
 }
 .slider_menu {
   position: absolute;
-  left: 750px;
+  left: 730px;
   top: 780px;
 }
 .New_Promo {
@@ -159,6 +196,19 @@ nav {
   line-height: normal;
   color: #fff;
 }
+.lux_button:hover{
+  border-radius: 16px;
+background: #F90;
+}
+.lux_button:focus{
+  border-radius: 16px;
+background: #F90;
+}
+.lux_button:active{
+  border-radius: 16px;
+background: #E1670E;
+border: 1px solid #E1670E;
+}
 .cards_constructor {
   display: flex;
   justify-content: center;
@@ -215,6 +265,16 @@ nav {
 .step_li {
   margin-right: 85px;
 }
+.step_li:hover{
+  text-decoration: underline #f90;
+}
+.step_li:focus{
+  text-decoration: 2px solid #F90;
+}
+.step_li:active{
+  color: #E1670E;
+  text-decoration: underline #E1670E;
+}
 .step_button {
   border: none;
   background: none;
@@ -257,6 +317,37 @@ nav {
   background: #f90;
   padding: 25px 39px;
 }
+
+.more:hover{
+  border-radius: 16px;
+background: #FFB84D;
+}
+.more:focus{
+  border-radius: 16px;
+  background: #FFB84D;  
+}
+.more:active{
+  border-radius: 16px;
+background: #E1670E;
+}
+#more_dont:hover{
+  border-radius: 16px;
+  background: #666;
+  border: 1px solid #666;
+  color: white;
+}
+#more_dont:focus{
+  border-radius: 16px;
+  background: #666;
+  border: 1px solid #666;
+  color: white;
+}
+#more_dont:active{
+  border-radius: 16px;
+  background: #000;
+  border: 1px solid #000;
+  color: white;
+}
 .more_link {
   text-decoration: none;
   color: #fff;
@@ -276,6 +367,13 @@ nav {
   border-radius: 16px;
   border: 1px solid #000;
   background: #fff;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .more_link {
   color: #000;
@@ -425,9 +523,404 @@ input[type=text]{
   font-weight: 400;
   line-height: 32px; /* 200% */
 }
+.sexi:hover{
+background-color: #666;
+}
+.sexi:focus{
+  background-color: #666;
+}
+.sexi:active{
+  color: #FFF;
+}
+.post:hover{
+  border-radius: 16px;
+background: #FFB84D;
+}
+.post:focus{
+  border-radius: 16px;
+  background: #FFB84D;  
+}
+.post:active{
+  border-radius: 16px;
+background: #E1670E;
+}
 .RITHING{
   margin-top: 50px;
 }
 #vecs{
   margin-top: 10px;
+}
+@media(width:1920px){
+  .slider_menu{
+    left: 900px;
+  }
+  .lux_cards{
+    background-image: url('/img/stroitel.png');
+    background-size:contain;
+  }
+  .cards_constructor{
+    width: 870px;
+  }
+  .fill_orange{
+    margin-right: 100px;
+  }
+  .button_step{
+    margin-top: 50px;
+  }
+  #more_dont{
+    margin-right: 800px;
+  }
+  .post{
+    margin-top: 5px;
+  }
+}
+@media (max-width:1024px){
+
+  body{
+
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .costomize_nav{
+    border-radius: 0px 0px 32px 32px;
+    background: #FFF;
+    box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.10);
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+  .Logo{
+    padding-top: 10px;
+  }
+  .burger{
+    padding-top: 45px;
+    display: block;
+  }
+  .finder_width{
+    display: block;
+    padding-top: 45px;
+  }
+  .promo_Imgure{
+    border-radius: 32px;
+    background: url(/img/constrection.png), lightgray 50% / cover no-repeat;
+    width: 770px;
+    border-radius: 32px;
+    
+margin-left: 50px;
+  }
+.nav_bar{
+  display: none;
+}
+
+.titel{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
+}
+.litl_titel{
+  font-size: 20px;
+}
+.promo_button{
+  border-radius: 16px;
+background: #F90;
+padding: 18.571px 37.142px
+}
+.button_link{
+  font-size: 23px;
+}
+.project{
+  padding-left: 70px;
+  
+}
+#container-part{
+  padding-left: 20px;
+}
+.slider_menu{
+  top: 660px;
+  left: 480px;
+}
+.lux_cards{
+  margin-left: 100px;
+}
+.WRAPSSS{
+  margin-left: 140px;
+}
+.right_section{
+  display: none;
+}
+.right_footer{
+  display: none;
+}
+}
+@media (max-width: 768px){
+.container{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.promo_Imgure{
+  width: 668px;
+  margin-left: 0px;
+}
+#container-part{
+  padding-left: 0px;
+}
+.project{
+  padding-left: 40px;
+}
+.litl_titel{
+  font-size: 18px;
+}
+.slider_menu{
+  top: 645px;
+  left: 125px;
+}
+.lux_cards{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.WRAPSSS{
+  margin-left: 30px;
+}
+.consultation_block_p{
+  color: #000;
+  width: 700px;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+#more_dont{
+  margin-right: 350px;
+}
+.left_footer{
+  display: none;
+}
+.center_footer{
+  margin-left: 120px;
+}
+.post{
+  margin-left: 85px;
+}
+}
+@media(max-width:320px){
+  .container{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .promo_Imgure{
+    width: 290px;
+
+  }
+  .lux_cards{
+    margin-left: 0px;
+    width: 290px;
+    margin-right: 0px;
+  }
+  .construct_new_obj{
+    display: none;
+  }
+  .slider_menu{
+    left: 121px;
+    top: 635px;
+  }
+
+.mobile_constructor_obj{
+  display: block;
+}
+.jobs{
+  display: none;
+}
+.mobile_jobs{
+  display: block;
+}
+footer{
+  display: none;
+}
+.mobie_footer{
+  display: block;
+  background-color: #000;
+}
+.post{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.Logo{
+  margin-top: 25px;
+}
+#mobile_logo{
+  width: 25px;
+}
+#Vector{
+  width: 100px;
+}
+.titel{
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 21px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.litl_titel{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+.promo_button{
+  border-radius: 8px;
+background: #F90;
+margin-left: 23px;
+}
+.button_link{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.project{
+
+  padding-left: 22px;
+  padding-right: 21px;
+}
+
+.promo_mobile{
+  color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 200% */
+}
+.button_mobile{
+  border-radius: 8px;
+border: 2px solid #F90;
+background: none;
+padding: 12px 24px;
+display: block;
+}
+.button_mobile a{
+
+  text-decoration: none;
+  color: #F90;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.mobile_construct_image{
+  margin-top: 32px;
+}
+.mobile_construct_heas{
+  color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.mobile_construct_paragraph{
+  color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 200% */
+}
+.mobile_jobs_head{
+  color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mobile_ul{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.mobile_li{
+  list-style-type: none;
+  color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mobile_link{
+  text-decoration: none;
+  color: #000;
+} .mobile_link:hover{
+  color: #E1670E;
+}
+.mobile_consultation{
+  color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+}
+.mobile_consultation_promo{
+  color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 200% */
+}
+.mobile_optional{
+  border-radius: 8px;
+background: #F90;
+border: none;
+padding: 12px 44px;
+}
+.jobs_mobile_link{
+  text-decoration: none;
+  color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.mobile_confidient{
+  text-decoration: none;
+  border-radius: 8px;
+border: 1px solid #000;
+background: none;
+padding: 12px 32px;
+}
+#jobs_mobile_link_color{
+  color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 }
