@@ -287,6 +287,8 @@ border: 1px solid #E1670E;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  border: none;
+  background: none;
 }
 .step_link:hover {
   color: #e1670e;
@@ -923,4 +925,61 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+}
+.FISTING_DEN_ASS{
+  border: none;
+  background: none;
+}
+.modal_finder{
+  position: relative;
+  top: 50px;
+  height: 50px;
+  right: 0px;
+  font-family: Montserrat;
+  background-color: black;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.input_modal_task{
+
+  margin-top:10px;
+
+  margin-left: 20px;
+
+}
+.input_finder{
+  font-family: Montserrat;
+  font-size: 20px;
+  border: none;
+  background: #414141;
+  border-radius: 16px;
+  color: #CACACA;
+}.input_finder:hover{
+  border: none;
+}
+
+.gold_find{
+  margin-left: 14px;
+  margin-top: 10px;
+}
+.close_modal{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.modal_esx_p{
+  display: none;
+}
+.nones{
+  display: none;
+}
+.gold_finds_button{
+  background: none;
+  border: none;
+  padding-bottom: 10px;
+}
+.death{
+  display: none;
 }
