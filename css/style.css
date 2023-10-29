@@ -595,6 +595,9 @@ input[type="text"] {
     justify-content: space-between;
     height: 100px;
   }
+  .None_logo{
+    display: none;
+  }
   .Logo {
     padding-top: 10px;
   }
@@ -1012,4 +1015,43 @@ input[type="text"] {
 .burger_dop li{
 
   padding: 20px;
+}
+.helpor{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.helpini_promo{
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 5px;
+}
+.market{
+  color: #000;
+
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.helpini_promo{
+  border-radius: 8px;
+  margin-left: 20px;
+  background: #f90;
+  border: 1px solid #f90;
+}
+.market{
+  color: black;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+#mob_find{
+  border: none;
+  background: none;
 }
